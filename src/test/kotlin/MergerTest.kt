@@ -26,7 +26,6 @@ internal class MergerTest {
     val teamA = Team("Team A")
     val teamB = Team("Team B")
     val teamC = Team("Team C")
-
     val serviceA1 = Microservice("Microservice A1", teamA)
     val interfaceA1 = Interface("Interface A1", serviceA1)
     val serviceA2 = Microservice("Microservice A2", teamA)
